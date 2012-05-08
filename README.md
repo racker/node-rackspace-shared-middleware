@@ -20,3 +20,7 @@ Middleware which limits the maximum size of the request body.
 ## Allow JavaScript XHR
 
 A middleware which responds to any OPTIONS requests with a 204 and an Access control Response.
+
+# License
+
+This library is distributed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
