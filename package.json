@@ -1,0 +1,14 @@
+{
+  "name": "rackspace-shared-middlewares",
+  "version": "0.1.0",
+  "dependencies": {
+    "async": "0.1.18",
+    "logmagic": "0.1.4"
+  },
+  "devDependencies": {
+    "jshint": "0.5.9"
+  },
+  "scripts": {
+    "lint": "./scripts/lint.sh"
+  }
+}
