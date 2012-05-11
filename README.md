@@ -2,7 +2,11 @@
 
 Shared Rackspace Express middleware.
 
-## Available middleware
+# Build status
+
+[![Build Status](https://secure.travis-ci.org/racker/node-rackspace-shared-middlewares.png)](http://travis-ci.org/racker/node-rackspace-shared-middlewares)
+
+# Available middleware
 
 ## Access Logger
 
