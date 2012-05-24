@@ -25,6 +25,11 @@ Middleware which limits the maximum size of the request body.
 
 A middleware which responds to any OPTIONS requests with a 204 and an Access control Response.
 
+## Validator
+
+A middleware which deserializes the request body and performs a validation on
+it using the provided Valve object.
+
 # License
 
 This library is distributed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
