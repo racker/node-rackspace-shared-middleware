@@ -19,16 +19,21 @@ the X-Response-Id header.
 
 ## Body size limiter
 
-Middleware which limits the maximum size of the request body.
+Middleware which accepts and limits the maximum size of the request body.
 
 ## Allow JavaScript XHR
 
 A middleware which responds to any OPTIONS requests with a 204 and an Access control Response.
 
+## Body parser
+
+Middleware which uses Swiz definitions to parse a request body.
+
 ## Validator
 
 A middleware which deserializes the request body and performs a validation on
-it using the provided Valve object.
+it using the provided Valve object. This middleware must be used in combination
+with body parser one.
 
 # License
 
