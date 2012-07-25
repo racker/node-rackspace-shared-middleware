@@ -4,7 +4,7 @@ Shared Rackspace Express middleware.
 
 # Build status
 
-[![Build Status](https://secure.travis-ci.org/racker/node-rackspace-shared-middlewares.png)](http://travis-ci.org/racker/node-rackspace-shared-middlewares)
+[![Build Status](https://secure.travis-ci.org/racker/node-rackspace-shared-middleware.png)](http://travis-ci.org/racker/node-rackspace-shared-middleware)
 
 # Available middleware
 
