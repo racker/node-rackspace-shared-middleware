@@ -1,10 +1,10 @@
-# Rackspace Express middleware
+# Rackspace Shared Express Middleware
 
 Shared Rackspace Express middleware.
 
 # Build status
 
-[![Build Status](https://secure.travis-ci.org/racker/node-rackspace-shared-middleware.png)](http://travis-ci.org/racker/node-rackspace-shared-middleware)
+[![Build Status](https://secure.travis-ci.org/racker/node-rackspace-shared-middlewares.png)](http://travis-ci.org/racker/node-rackspace-shared-middlewares)
 
 # Available middleware
 
@@ -34,6 +34,11 @@ Middleware which uses Swiz definitions to parse a request body.
 A middleware which deserializes the request body and performs a validation on
 it using the provided Valve object. This middleware must be used in combination
 with body parser one.
+
+## Timing
+
+A middleware which uses instruments library to record how long the request
+processing took.
 
 # License
 
