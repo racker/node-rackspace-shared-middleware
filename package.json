@@ -18,7 +18,7 @@
     "async": "0.1.18",
     "logmagic": "0.1.4",
     "express": "2.5.6",
-    "swiz": "0.4.35",
+    "swiz": ">= 0.4.37",
     "rackspace-shared-utils": "0.1.0"
   },
   "devDependencies": {
